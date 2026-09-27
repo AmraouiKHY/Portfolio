@@ -29,7 +29,7 @@ export default function About({ pageInfo }: Props) {
           opacity: 1,
         }}
         viewport={{ once: true }}
-        className="mt-16 md:mt-8 mb-8 md:mb-0 flex-shrink-0 w-32 h-32 sm:w-40 sm:h-40 md:w-64 md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full md:rounded-lg object-cover shadow-2xl border-4 border-professionalBlue/20"
+        className="mt-16 md:mt-8 mb-8 md:mb-0 shrink-0 w-32 h-32 sm:w-40 sm:h-40 md:w-64 md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full md:rounded-lg object-cover shadow-2xl border-4 border-professionalBlue/20"
         src={pageInfo?.profilePic || "/images/profile-pic.JPG"}
         alt={pageInfo?.name || "Profile picture"}
       />

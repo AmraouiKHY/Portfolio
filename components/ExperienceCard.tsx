@@ -10,7 +10,7 @@ export default function ExperienceCard({ experience }: Props) {
   return (
     <>
       <article 
-        className="flex drop-shadow-xl flex-col rounded-3xl items-center space-y-2 flex-shrink-0 w-72 md:w-[500px] xl:w-[500px] h-48 md:h-auto snap-center bg-white bg-gradient-to-tr from-white to-professionalBlue/10 p-3 md:p-8 hover:opacity-100 opacity-100 cursor-pointer transition-opacity duration-200 border border-professionalBlue/20"
+        className="flex drop-shadow-xl flex-col rounded-3xl items-center space-y-2 shrink-0 w-72 md:w-[500px] xl:w-[500px] h-48 md:h-auto snap-center bg-white bg-linear-to-tr from-white to-professionalBlue/10 p-3 md:p-8 hover:opacity-100 opacity-100 cursor-pointer transition-opacity duration-200 border border-professionalBlue/20"
         onClick={() => setShowModal(true)}
       >
         <motion.img

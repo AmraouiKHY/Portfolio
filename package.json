@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.22",
+    "baseline-browser-mapping": "^2.11.26",
     "postcss": "^8.5.6",
     "tailwind-scrollbar": "^4.0.2",
     "tailwindcss": "^4.1.17"

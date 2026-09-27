@@ -26,7 +26,7 @@ export default function EducationComponent({ education }: Props) {
               .map((edu) => (
                 <article 
                   key={edu._id} 
-                  className="flex drop-shadow-xl flex-col rounded-3xl items-center space-y-4 w-64 h-auto min-h-[500px] bg-white bg-gradient-to-tr from-white to-professionalBlue/10 p-6 hover:opacity-100 opacity-100 cursor-pointer transition-opacity duration-200 border border-professionalBlue/20 flex-shrink-0"
+                  className="flex drop-shadow-xl flex-col rounded-3xl items-center space-y-4 w-64 h-auto min-h-[500px] bg-white bg-linear-to-tr from-white to-professionalBlue/10 p-6 hover:opacity-100 opacity-100 cursor-pointer transition-opacity duration-200 border border-professionalBlue/20 shrink-0"
                 >
                   {/* Institution Logo */}
                   <motion.img
@@ -74,7 +74,7 @@ export default function EducationComponent({ education }: Props) {
                   </div>
 
                   {/* Description */}
-                  <div className="text-professionalDark/80 text-xs leading-relaxed text-justify flex-grow flex items-center">
+                  <div className="text-professionalDark/80 text-xs leading-relaxed text-justify grow flex items-center">
                     <p>{edu?.description}</p>
                   </div>
 
@@ -106,7 +106,7 @@ export default function EducationComponent({ education }: Props) {
             .map((edu) => (
               <article 
                 key={`desktop-${edu._id}`} 
-                className="flex drop-shadow-xl flex-col rounded-3xl items-center space-y-4 w-full max-w-md md:max-w-lg lg:max-w-xl h-auto min-h-[500px] bg-white bg-gradient-to-tr from-white to-professionalBlue/10 p-6 md:p-8 hover:opacity-100 opacity-100 cursor-pointer transition-opacity duration-200 border border-professionalBlue/20"
+                className="flex drop-shadow-xl flex-col rounded-3xl items-center space-y-4 w-full max-w-md md:max-w-lg lg:max-w-xl h-auto min-h-[500px] bg-white bg-linear-to-tr from-white to-professionalBlue/10 p-6 md:p-8 hover:opacity-100 opacity-100 cursor-pointer transition-opacity duration-200 border border-professionalBlue/20"
               >
                 {/* Institution Logo */}
                 <motion.img
@@ -154,7 +154,7 @@ export default function EducationComponent({ education }: Props) {
                 </div>
 
                 {/* Description */}
-                <div className="px-0 md:px-6 text-professionalDark/80 text-sm md:text-base leading-relaxed text-justify flex-grow flex items-center">
+                <div className="px-0 md:px-6 text-professionalDark/80 text-sm md:text-base leading-relaxed text-justify grow flex items-center">
                   <p>{edu?.description}</p>
                 </div>
 
